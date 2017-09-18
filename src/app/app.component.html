@@ -1,20 +1,1606 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNTAgMjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNTAgMjUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojREQwMDMxO30NCgkuc3Qxe2ZpbGw6I0MzMDAyRjt9DQoJLnN0MntmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTI1LDMwIDEyNSwzMCAxMjUsMzAgMzEuOSw2My4yIDQ2LjEsMTg2LjMgMTI1LDIzMCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAJIi8+DQoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxMjUsMzAgMTI1LDUyLjIgMTI1LDUyLjEgMTI1LDE1My40IDEyNSwxNTMuNCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAxMjUsMzAgCSIvPg0KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMjUsNTIuMUw2Ni44LDE4Mi42aDBoMjEuN2gwbDExLjctMjkuMmg0OS40bDExLjcsMjkuMmgwaDIxLjdoMEwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMQ0KCQlMMTI1LDUyLjF6IE0xNDIsMTM1LjRIMTA4bDE3LTQwLjlMMTQyLDEzNS40eiIvPg0KPC9nPg0KPC9zdmc+DQo=">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://blog.angular.io//">Angular blog</a></h2>
-  </li>
-</ul>
 
+	<!-- Page Loader -->
+    <div class="loader"></div>
+    
+	<!-- Top Bar Starts -->
+    <div id="top-bar">
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-xs-12 col-sm-6">
+                    <div id="info">
+                        <ul class="list-unstyled list-inline">
+                            <li><span><i class="fa fa-phone"></i></span>101-25561</li>
+                            <li><span><i class="fa fa-envelope"></i></span>info@abc.com</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div id="links">
+                        <ul class="list-unstyled list-inline">
+                            <li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+                            <li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                            <li><a href="#"><span><i class="fa fa-google"></i></span></a></li>
+                        </ul>				
+                    </div>
+                </div>				
+
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar Ends -->
+    
+    
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-default" id="mynavbar" data-spy="affix" data-offset-top="40">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+              </button>
+              <div class="navbar-brand">
+                <div id="logo">
+                    <img src="./assets/images/logo.png" alt="logo"/>
+                </div>
+              </div>
+            </div>
+            
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right text-center">
+                    <li><a href="#mypage">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#team">TEAM</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#reservation">RESERVATION</a></li>
+                    <li><a href="#contact">CONTACT</a></li>		
+                </ul>           
+            </div>
+        </div>
+    </nav>
+	<!-- Navbar Ends -->
+    
+    
+	<!-- Slider Starts -->
+    <div class="flexslider" id="slider">
+        <ul class="slides">
+        	
+            <!-- Item 1 -->
+            <li class="item-1">                   
+                <div class="container text-center meta">
+                    <h1>We Serve With Quality Food.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas magna non.</p>
+                    <div class="category">
+                        <button class="btn btn-default btn-lg">Explore More</button>
+                    </div>
+                </div>  
+            </li>
+            <!-- Item 1 -->
+            
+            
+            <!-- Item 2 -->
+            <li class="item-2">
+                <div class="container text-center meta">
+                    <h1>Fresh Taste With Low Price!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="category">
+                        <button class="btn btn-default btn-lg">Explore More</button>
+                    </div>
+                </div>
+            </li>
+           <!-- Item 2 -->
+           
+        </ul>
+    </div>
+    <!-- Slider Ends -->
+    
+    
+    <!-- Banner-1 Starts -->
+    <section id="banner-1" class="pattern-back">
+    	<div class="container">
+    		<div class="row">
+            	<div class="col-sm-6 col-md-4 b-1-block slide-top-vis">                	
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 icon">
+                            <span><i class="fa fa-cutlery"></i></span>
+                        </div>
+                        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 text">
+                            <p><span>Monday - Friday :</span> 10am - 5pm</p>
+                            <p><span>Saturday - Sunday :</span> 11am - 3pm</p>                   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 b-1-block slide-top-vis">
+                	<div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 icon">
+                            <span><i class="fa fa-address-card-o"></i></span>
+                        </div>
+                        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 text">
+                            <p><span>Email :</span> info@restaurant.com</p>
+                            <p><span>Phone :</span> +1 123 12345</p>                   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-md-offset-1 b-1-block slide-top-vis">
+            		<a href="#reservation" class="btn btn-default mybtn btn-block">Make Reservation</a>
+                </div>
+            </div>
+    	</div>
+    </section>
+    <!-- Banner-1 Ends -->
+    
+    
+    <!-- About Us Section Starts-->
+    <section id="about">
+        <div class="container section-padding">
+            <div class="row">
+            	
+                <div class="col-lg-12">
+                	<h1 class="page-heading">{{MyTitle}}</h1>
+                	<p class="heading-info">Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper. Iuvaret detraxit disputando vel ea, ut virtute per lorem ipsum dolor si Iuvaret.</p>
+                	
+                	<div class="row">
+                    	
+                        <!-- About Text -->
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 about-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            
+                            <!-- About Block -->
+                            <div class="about-block" *ngFor='let f of MyFeatures'>
+                                <div class="row">
+                                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 icon text-center">
+                                        <span><i class="{{f.ICON}}"></i></span>
+                                    </div>
+                                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 text">
+                                        <h4>{{f.TITLE}}</h4>
+                                        <p>{{f.DESCRIPTION}}</p>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- About Block -->
+                            
+                            
+                            
+                        </div>
+                        <!-- About Text -->
+                        
+                        
+                        <!-- About Image -->
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 about-image text-center">
+                             <img src="./assets/images/about.jpg" alt="about-image" class="img-responsive slide-left-vis">
+                        </div>
+                        <!-- About Image -->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    <section>
+    <!-- About Us section Ends-->
+    
+    
+    <!--Specials Section Starts-->
+    <section id="specials" class="section-padding pattern-back">   
+        <div class="container text-center">            
+            <div class="row web_heading">
+            
+                <div class="col-sm-12">
+                    <h1 class="page-heading">Specials</h1>
+                	<p class="heading-info">Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper. Iuvaret detraxit disputando vel ea, ut virtute per lorem ipsum dolor si Iuvaret.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+            
+                <div class="col-sm-4 slide-right-vis" *ngFor='let cat of MyCategories'>
+                    <div class="thumbnail special-box">
+                        <h3>{{cat.TITLE}}</h3>
+                        <div class="special-img">
+                            <img src="./assets/images/sweets.jpg"/>
+                        </div>
+                        <p>{{cat.DESCRIPTION}}</p>
+                        <a href="specials_detail.html" type="button" class="btn btn-default mybtn">View More <span><i class="fa fa-long-arrow-right"></i></span></a>
+                    </div>
+                </div>
+                
+               
+            
+            </div>    
+        </div>   
+    </section>
+    <!--Specials Section Ends-->
+
+	
+    <!-- Services Starts -->
+    <section id="services" class="banner-padding">
+        <div class="container text-center">	
+            <div class="row">
+                
+                <!-- Service Block -->
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 slide-right-vis">
+                    <div class="service-block">
+                        <span><i class="fa fa-home"></i></span>
+                        <h4>Home Delivery</h4>
+                        <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                    </div>
+                </div>
+                <!-- Service Block -->
+                
+                
+                <!-- Service Block -->
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 slide-right-vis">
+                    <div class="service-block">
+                        <span><i class="fa fa-heart"></i></span>
+                        <h4>Wedding Party</h4>
+                        <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                    </div>
+                </div>
+                <!-- Service Block -->
+                
+                
+                <!-- Service Block -->
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 slide-right-vis">
+                    <div class="service-block">
+                        <span><i class="fa fa-gift"></i></span>
+                        <h4>Event Party</h4>
+                        <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                    </div>
+                </div>
+                <!-- Service Block -->
+                
+            </div>
+        </div>
+    </section>
+    <!-- Services Ends -->
+    
+    
+    <!-- Menu Section Starts -->
+    <section id="menu" class="section-padding pattern-back">
+    	<div class="container">
+    		<div class="row">
+            
+            	<div class="col-sm-12">
+                	
+                    <h2 class="page-heading">Delicious Menu</h2>
+                    <p class="heading-info">Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper. Iuvaret detraxit disputando vel ea, ut virtute per lorem ipsum dolor si Iuvaret.</p>
+                    
+                    <!-- Menu Tabs -->
+                    <ul class="nav nav-tabs" id="menu-tabs">
+                        <li><a href="#breakfast" data-toggle="tab">Breakfast</a></li>
+                        <li class="active"><a href="#lunch" data-toggle="tab">Lunch</a></li>
+                        <li><a href="#dinner" data-toggle="tab">Dinner</a></li>
+                    </ul>
+                    <!-- Menu Tabs -->
+                    
+                    
+                    <!-- Tab Content -->
+                    <div class="tab-content" id="menu-content">
+                        
+                        <!-- Breakfast -->
+                        <div id="breakfast" class="tab-pane fade">
+                            <div class="row">
+								
+                                <div class="col-sm-12">
+                                	
+                                    <!-- Dish Category -->
+                                    <div class="dish-category slide-top-vis">
+                                    
+                                        <h3>EGGS BENEDICT</h3>
+                                        
+                                        <!-- Row 1 -->
+                                        <div class="row">                                
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Traditional</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$34</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Bacon Avocado</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$27</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Florentine</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$45</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- Row 1 -->
+                                        
+                                	</div>
+                                    <!-- Dish Category -->
+                                    
+                                </div>
+                                
+                                
+                                <div class="col-sm-12">
+                                	
+                                    <!-- Dish Category -->
+                                    <div class="dish-category slide-top-vis">
+                                    
+                                        <h3>OMELETE</h3>
+                                        
+                                        <!-- Row 2 -->
+                                        <div class="row">                                
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">The Vegas</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$20</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Super Fuel</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$26</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Three Cheese</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$41</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- Row 2 -->
+                                        
+                                	</div>
+                                    <!-- Dish Category -->
+                                    
+                                </div>
+                                
+                                
+                                <div class="col-sm-12">
+                                	
+                                    <!-- Dish Category -->
+                                    <div class="dish-category slide-top-vis">
+                                    
+                                        <h3>EGGS & SUCH</h3>
+                                        
+                                        <!-- Row 3 -->
+                                        <div class="row">                                
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Breakfast Burger</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$50</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Biscuits & Gravy</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$48</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Florentine</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$35</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- Row 3 -->
+                                        
+                                	</div>
+                                    <!-- Dish Category -->
+                                    
+                                </div>
+                                									
+                            </div>											
+                        </div>
+                        <!-- Breakfast -->
+                        
+                        
+                        <!-- Lunch -->
+                        <div id="lunch" class="tab-pane fade in active">
+                            <div class="row">
+								
+                                <div class="col-sm-12">
+                                	
+                                    <!-- Dish Category -->
+                                    <div class="dish-category slide-top-vis">
+                                    
+                                        <h3>APPETIZERS</h3>
+                                        
+                                        <!-- Row 1 -->
+                                        <div class="row">                                
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Salsa & Chips</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$44</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Tomato Flatbread</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$27</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Grilled Vegetables</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$31</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- Row 1 -->
+                                        
+                                	</div>
+                                    <!-- Dish Category -->
+                                    
+                                </div>
+                                
+                                
+                                <div class="col-sm-12">
+                                	
+                                    <!-- Dish Category -->
+                                    <div class="dish-category slide-top-vis">
+                                    
+                                        <h3>ENTREES</h3>
+                                        
+                                        <!-- Row 2 -->
+                                        <div class="row">                                
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Tomato Rigatoni</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$20</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Street Tacos</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$26</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Potato Rigatoni</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$42</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- Row 2 -->
+                                        
+                                	</div>
+                                    <!-- Dish Category -->
+                                    
+                                </div>
+                                
+                                
+                                <div class="col-sm-12">
+                                	
+                                    <!-- Dish Category -->
+                                    <div class="dish-category slide-top-vis">
+                                    
+                                        <h3>SALAD</h3>
+                                        
+                                        <!-- Row 3 -->
+                                        <div class="row">                                
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Chopped Salad</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$50</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Mixed Salad</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$58</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Strawberry Salad</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$60</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- Row 3 -->
+                                        
+                                	</div>
+                                    <!-- Dish Category -->
+                                    
+                                </div>
+                                									
+                            </div>											
+                        </div>
+                        <!-- Lunch -->
+                        
+                        
+                        <!-- Dinner -->
+                        <div id="dinner" class="tab-pane fade">
+                            <div class="row">
+								
+                                <div class="col-sm-12">
+                                	
+                                    <!-- Dish Category -->
+                                    <div class="dish-category slide-top-vis">
+                                    
+                                        <h3>GRILLED FLATBREADS</h3>
+                                        
+                                        <!-- Row 1 -->
+                                        <div class="row">                                
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Basil Pesto & Tomato</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$24</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Grilled Vegetables</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$20</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">BBQ Chicken</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$45</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- Row 1 -->
+                                        
+                                	</div>
+                                    <!-- Dish Category -->
+                                    
+                                </div>
+                                
+                                
+                                <div class="col-sm-12">
+                                	
+                                    <!-- Dish Category -->
+                                    <div class="dish-category slide-top-vis">
+                                    
+                                        <h3>APPETIZERS</h3>
+                                        
+                                        <!-- Row 2 -->
+                                        <div class="row">                                
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Maple Butter</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$30</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Signature Soup</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$56</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Chicken Wings</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$41</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- Row 2 -->
+                                        
+                                	</div>
+                                    <!-- Dish Category -->
+                                    
+                                </div>
+                                
+                                
+                                <div class="col-sm-12">
+                                	
+                                    <!-- Dish Category -->
+                                    <div class="dish-category slide-top-vis">
+                                    
+                                        <h3>AMERICAN CLASSICS</h3>
+                                        
+                                        <!-- Row 3 -->
+                                        <div class="row">                                
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Basil Pesto & Tomato</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$40</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">Grilled Vegetables</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$48</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 dish-type">
+                                            
+                                            	<div class="row">
+                                                	<div class="col-xs-9 col-sm-9">
+                                                		<h4 class="dish-name">BBQ Chicken</h4>
+                                                	</div>
+                                                    <div class="col-xs-3 col-sm-3 text-right">
+                                                		<h4 class="dish-price">$35</h4>
+                                                	</div>
+                                                </div>
+                                                
+                                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper.</p>
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- Row 3 -->
+                                        
+                                	</div>
+                                    <!-- Dish Category -->
+                                    
+                                </div>
+                                									
+                            </div>											
+                        </div>
+                        <!-- Dinner -->
+                        
+                    </div>
+                    <!-- Tab Content -->
+                            
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section Ends -->
+    
+    
+    <!-- Team Section Starts -->
+    <section id="team">
+    	<div class="container section-padding">
+        	<div class="row">
+        		<div class="col-sm-12">
+                
+                	<h2 class="page-heading">Our Team</h2>
+                    <p class="heading-info">Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper. Iuvaret detraxit disputando vel ea, ut virtute per lorem ipsum dolor si Iuvaret.</p>
+                    
+                    <!-- Owl Carousel -->
+                    <div class="owl-carousel owl-theme" id="owl-team">
+                    	
+                        <!-- Member 1 -->
+                        <div class="item">
+                        
+                            <!-- Member Block -->
+                            <div class="member-block">
+                                
+                                <!-- Member Image -->
+                                <div class="member-image text-center">
+                                    <img src="./assets/images/cook-1.png" alt="member-image" class="img-responsive img-thumbnail slide-bot-vis">
+                                    <div class="mask">
+                                        <ul class="list-inline list-unstyled connect">
+                                            <li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+                                            <li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                                            <li><a href="#"><span><i class="fa fa-google"></i></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Member Image -->
+                                
+                                
+                                <!-- Member Info -->
+                                <div class="member-info text-center">
+                                    <h3 class="member-name">Jack Rider</h3>	
+                                    <h4 class="member-cat">Pastry Chef</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut labore et.</p>
+                                </div>
+                                <!-- Member Info -->
+                                
+                            </div>
+                            <!-- Member Block -->
+                            
+                        </div>
+                        <!-- Member 1 -->
+                        
+                        
+                        <!-- Member 2 -->
+                        <div class="item">
+                        
+                            <!-- Member Block -->
+                            <div class="member-block">
+                                
+                                <!-- Member Image -->
+                                <div class="member-image text-center">
+                                    <img src="./assets/images/cook-2.png" alt="member-image" class="img-responsive img-thumbnail slide-bot-vis">
+                                    <div class="mask">
+                                        <ul class="list-inline list-unstyled connect">
+                                            <li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+                                            <li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                                            <li><a href="#"><span><i class="fa fa-google"></i></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Member Image -->
+                                
+                                
+                                <!-- Member Info -->
+                                <div class="member-info text-center">
+                                    <h3 class="member-name">Anderissa</h3>	
+                                    <h4 class="member-cat">Sous Chef</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut labore et.</p>
+                                </div>
+                                <!-- Member Info -->
+                                
+                            </div>
+                            <!-- Member Block -->
+                            
+                        </div>
+                        <!-- Member 2 -->
+                        
+                        
+                        <!-- Member 3 -->
+                        <div class="item">
+                        
+                            <!-- Member Block -->
+                            <div class="member-block">
+                                
+                                <!-- Member Image -->
+                                <div class="member-image text-center">
+                                    <img src="./assets/images/cook-3.png" alt="member-image" class="img-responsive img-thumbnail slide-bot-vis">
+                                    <div class="mask">
+                                        <ul class="list-inline list-unstyled connect">
+                                            <li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+                                            <li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                                            <li><a href="#"><span><i class="fa fa-google"></i></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Member Image -->
+                                
+                                
+                                <!-- Member Info -->
+                                <div class="member-info text-center">
+                                    <h3 class="member-name">Willam John</h3>	
+                                    <h4 class="member-cat">Chef De Cuisine</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut labore et.</p>
+                                </div>
+                                <!-- Member Info -->
+                                
+                            </div>
+                            <!-- Member Block -->
+                            
+                        </div>
+                        <!-- Member 3 -->
+                        
+                        
+                        <!-- Member 4 -->
+                        <div class="item">
+                        
+                            <!-- Member Block -->
+                            <div class="member-block">
+                                
+                                <!-- Member Image -->
+                                <div class="member-image text-center">
+                                    <img src="./assets/images/cook-4.png" alt="member-image" class="img-responsive img-thumbnail slide-bot-vis">
+                                    <div class="mask">
+                                        <ul class="list-inline list-unstyled connect">
+                                            <li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+                                            <li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                                            <li><a href="#"><span><i class="fa fa-google"></i></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Member Image -->
+                                
+                                
+                                <!-- Member Info -->
+                                <div class="member-info text-center">
+                                    <h3 class="member-name">Christina</h3>	
+                                    <h4 class="member-cat">Sous Chef</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut labore et.</p>
+                                </div>
+                                <!-- Member Info -->
+                                
+                            </div>
+                            <!-- Member Block -->
+                            
+                        </div>
+                        <!-- Member 4 -->
+                        
+                    </div>
+                	<!-- Owl Carousel -->
+                    
+                </div>
+        
+        	</div>
+        </div>
+    </section>
+    <!-- Team Ends -->
+    
+        
+    <!-- Banner-2 Section Starts -->
+	<section class="banner-padding" id="banner-2">
+        <div class="container text-center">
+           <div class="row">
+                
+                <!-- Highlight Box -->
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <div class="highlight-box">
+                        <span><i class="fa fa-3x fa-star slide-bot-vis"></i></span>
+                        <h1>200</h1>
+                        <h4>Five Star Rating</h4>
+                    </div>
+                </div>
+                <!-- Highlight Box -->
+                
+                
+                <!-- Highlight Box -->
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <div class="highlight-box">
+                        <span><i class="fa fa-3x fa-users slide-bot-vis"></i></span>
+                        <h1>12000+</h1>
+                        <h4>Customers Served</h4>
+                    </div>
+                </div>
+                <!-- Highlight Box -->
+                
+                
+                <!-- Highlight Box -->
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <div class="highlight-box">
+                        <span><i class="fa fa-3x fa-link slide-bot-vis"></i></span>
+                        <h1>300+</h1>
+                        <h4>New Links</h4>
+                    </div>
+                </div>
+                <!-- Highlight Box -->
+                
+                
+                <!-- Highlight Box -->
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                    <div class="highlight-box">
+                        <span><i class="fa fa-3x fa-coffee slide-bot-vis"></i></span>
+                        <h1>1000+</h1>
+                        <h4>Breakfast Served</h4>
+                    </div>
+                </div>
+                <!-- Highlight Box -->
+                
+            </div>
+        </div>
+	</section>
+	<!-- Banner-2 Section Ends -->
+    
+    
+    <!-- Gallery Section Starts -->
+    <section id="gallery" class="section-padding">
+    	<div class="container">
+        	<div class="row">
+            
+            	<div class="col-sm-12">
+                    
+                    <h2 class="page-heading">Photo Gallery</h2>
+                    <p class="heading-info">Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper. Iuvaret detraxit disputando vel ea, ut virtute per lorem ipsum dolor si Iuvaret.</p>
+        			
+                    <div class="row parent-container">
+                    	
+                        <!-- Gallery Block 1 -->
+                    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        	<div class="gallery-block slide-top-vis">
+                            	
+                                <!-- Gallery Image -->                                
+                                <div class="gallery-image">
+                                    <img src="./assets/images/gallery-1.jpg" alt="gallery-image" class="img-responsive">
+                                    <div class="image-mask">
+                                    	<h3 class="gallery-title">Photo 1</h3>
+                                        <a href="./assets/images/gallery-1.jpg" title="image 1" class="with-caption image-link"><span><i class="fa fa-search-plus"></i></span></a>
+                                    </div>
+                                </div>
+                                <!-- Gallery Image -->
+                                
+                            </div>
+                        </div>
+                        <!-- Gallery Block 1 -->
+                        
+                        
+                        <!-- Gallery Block 2 -->
+                    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        	<div class="gallery-block slide-top-vis">
+                            	
+                                <!-- Gallery Image -->                               
+                                <div class="gallery-image">
+                                    <img src="./assets/images/gallery-2.jpg" alt="gallery-image" class="img-responsive">
+                                    <div class="image-mask">
+                                    	<h3 class="gallery-title">Photo 2</h3>
+                                        <a href="./assets/images/gallery-2.jpg" title="image 2" class="with-caption image-link"><span><i class="fa fa-search-plus"></i></span></a>
+                                    </div>
+                                </div>
+                                <!-- Gallery Image -->
+                                
+                            </div>
+                        </div>
+                        <!-- Gallery Block 2 -->
+                        
+                        
+                        <!-- Gallery Block 3 -->
+                    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        	<div class="gallery-block slide-top-vis">
+                            	
+                                <!-- Gallery Image -->                               
+                                <div class="gallery-image">
+                                    <img src="./assets/images/gallery-3.jpg" alt="gallery-image" class="img-responsive">
+                                    <div class="image-mask">
+                                    	<h3 class="gallery-title">Photo 3</h3>
+                                        <a href="./assets/images/gallery-3.jpg" title="image 3" class="with-caption image-link"><span><i class="fa fa-search-plus"></i></span></a>
+                                    </div>
+                                </div> 
+                                <!-- Gallery Image -->
+                                
+                            </div>
+                        </div>
+                        <!-- Gallery Block 3 -->
+                        
+                        
+                        <!-- Gallery Block 4 -->
+                    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        	<div class="gallery-block slide-top-vis">
+                            	
+                                <!-- Gallery Image -->                                
+                                <div class="gallery-image">
+                                    <img src="./assets/images/gallery-4.jpg" alt="gallery-image" class="img-responsive">
+                                    <div class="image-mask">
+                                    	<h3 class="gallery-title">Photo 4</h3>
+                                        <a href="./assets/images/gallery-4.jpg" title="image 4" class="with-caption image-link"><span><i class="fa fa-search-plus"></i></span></a>
+                                    </div>
+                                </div>
+                                <!-- Gallery Image -->
+                                
+                            </div>
+                        </div>
+                        <!-- Gallery Block 4 -->
+                        
+                        
+                        <!-- Gallery Block 5 -->
+                    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        	<div class="gallery-block slide-top-vis">
+                            	
+                                <!-- Gallery Image -->                                
+                                <div class="gallery-image">
+                                    <img src="./assets/images/gallery-5.jpg" alt="gallery-image" class="img-responsive">
+                                    <div class="image-mask">
+                                    	<h3 class="gallery-title">Photo 5</h3>
+                                        <a href="./assets/images/gallery-5.jpg" title="image 5" class="with-caption image-link"><span><i class="fa fa-search-plus"></i></span></a>
+                                    </div>
+                                </div>
+                                <!-- Gallery Image -->
+                                
+                            </div>
+                        </div>
+                        <!-- Gallery Block 5 -->
+                        
+                        
+                        <!-- Gallery Block 6 -->
+                    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        	<div class="gallery-block slide-top-vis">
+                            	
+                                <!-- Gallery Image -->
+                                <div class="gallery-image">
+                                    <img src="./assets/images/gallery-6.jpg" alt="gallery-image" class="img-responsive">
+                                    <div class="image-mask">
+                                    	<h3 class="gallery-title">Photo 6</h3>
+                                        <a href="./assets/images/gallery-6.jpg" title="image 6" class="with-caption image-link"><span><i class="fa fa-search-plus"></i></span></a>
+                                    </div>
+                                </div>    
+                                <!-- Gallery Image -->
+                                
+                            </div>
+                        </div>
+                        <!-- Gallery Block 6 -->
+                        
+                        
+                        <!-- Gallery Block 7 -->
+                    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        	<div class="gallery-block slide-top-vis">
+                            	
+                                <!-- Gallery Image -->
+                                <div class="gallery-image">
+                                    <img src="./assets/images/gallery-7.jpg" alt="gallery-image" class="img-responsive">
+                                    <div class="image-mask">
+                                    	<h3 class="gallery-title">Photo 7</h3>
+                                        <a href="./assets/images/gallery-7.jpg" title="image 7" class="with-caption image-link"><span><i class="fa fa-search-plus"></i></span></a>
+                                    </div>
+                                </div>
+                                <!-- Gallery Image -->
+                                
+                            </div>
+                        </div>
+                        <!-- Gallery Block 7 -->
+                        
+                        
+                        <!-- Gallery Block 8 -->
+                    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        	<div class="gallery-block slide-top-vis">
+                            	
+                                <!-- Gallery Image -->
+                                <div class="gallery-image">
+                                    <img src="./assets/images/gallery-8.jpg" alt="gallery-image" class="img-responsive">
+                                    <div class="image-mask">
+                                    	<h3 class="gallery-title">Photo 8</h3>
+                                        <a href="./assets/images/gallery-8.jpg" title="image 8" class="with-caption image-link"><span><i class="fa fa-search-plus"></i></span></a>
+                                    </div>
+                                </div>
+                                <!-- Gallery Image -->
+                                
+                            </div>
+                        </div>
+                        <!-- Gallery Block 8 -->
+                        
+                        
+                        <!-- Gallery Block 9 -->
+                    	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        	<div class="gallery-block slide-top-vis">
+                            	
+                                <!-- Gallery Image -->
+                                <div class="gallery-image">
+                                    <img src="./assets/images/gallery-9.jpg" alt="gallery-image" class="img-responsive">
+                                    <div class="image-mask">
+                                    	<h3 class="gallery-title">Photo 9</h3>
+                                        <a href="./assets/images/gallery-9.jpg" title="image 9" class="with-caption image-link"><span><i class="fa fa-search-plus"></i></span></a>
+                                    </div>
+                                </div>
+                                <!-- Gallery Image -->
+                                
+                            </div>
+                        </div>
+                        <!-- Gallery Block 9 -->
+                        
+                    </div>
+
+            	</div>
+            </div>
+		</div>
+    </section>
+    <!-- Gallery Section Ends -->
+    
+    
+    <!-- Reservation Section Starts -->
+	<section class="section-padding" id="reservation">
+        <div class="container text-center">
+           <div class="row">
+                
+                <div class="col-sm-12">
+                	
+                    <h2 class="page-heading">Make A Reservation</h2>
+                    <p class="heading-info">Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, pro an eros perpetua ullamcorper. Iuvaret detraxit disputando vel ea, ut virtute per lorem ipsum dolor si Iuvaret.</p>
+                    
+					<!-- Reservation Form Starts-->
+					<form id="reservation-form">
+					
+						<div class="row">
+							<div class="col-sm-6 slide-right-vis">
+								<div class="row">
+									<div class="col-xs-12 col-sm-6 col-md-6">
+										<div class="form-group">
+                                        	<div class="input-group">
+                                            	<span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                <input type="text" class="form-control input input-lg" placeholder="First Name"  required/>                                                
+                                            </div>
+										</div>
+									</div>
+								
+									<div class="col-xs-12 col-sm-6 col-md-6">
+										<div class="form-group">
+                                        	<div class="input-group">
+                                            	<span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                <input type="text" class="form-control input input-lg" placeholder="Last Name"  required/>                                               
+                                            </div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="row">
+									<div class="col-xs-12 col-sm-6 col-md-6">
+										<div class="form-group">
+                                        	<div class="input-group">
+                                            	<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                                <input type="text" class="form-control input input-lg" id="datepicker" placeholder="mm/dd/yy"  required/>                                                
+                                            </div>
+                                        </div>
+									</div>
+								
+									<div class="col-xs-12 col-sm-6 col-md-6">
+										<div class="form-group">
+                                        	<div class="input-group">
+                                            	<span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                                                <input type="text" placeholder="hh/mm" class="form-control input input-lg" required/>                                                
+                                            </div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="row">
+									<div class="col-xs-12 col-sm-6 col-md-6">
+										<div class="form-group">
+                                        	<div class="input-group">
+                                            	<span class="input-group-addon"><i class="fa fa-users"></i></span>
+                                                <input type="number" min="1" max="20" placeholder="Persons" class="form-control input input-lg" required/>                                                
+                                            </div>
+										</div>
+									</div>
+								
+									<div class="col-xs-12 col-sm-6 col-md-6">
+										<div class="form-group">
+                                        	<div class="input-group">
+                                            	<span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                                <input type="text" class="form-control input input-lg" placeholder="Phone"  required/>                                                
+                                            </div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 slide-left-vis">
+								<div class="form-group">
+                                	<div class="input-group">
+                                    	<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+										<textarea class="form-control input-lg" rows="5" placeholder="Your Message"></textarea>                                        
+                                    </div>
+								</div>
+							</div>
+							
+							<div class="col-sm-12 slide-top-vis">
+								<div class="button">
+									<button class="btn btn-default btn-block btn-lg"><span class="fa fa-paper-plane-o"></span> BOOK NOW</button>
+								</div>
+							</div>
+						</div>
+					</form>
+					<!--Reservation Form Ends-->
+                    
+				</div>
+                
+            </div>
+        </div>
+	</section>
+	<!-- Reservation Banner Section Ends -->
+    
+    
+    <!-- Testimonial Section Starts -->
+    <section id="testimonials">
+    	<div class="container section-padding">
+    		<div class="row">
+        		
+                <div class="col-sm-12">
+                	<h1 class="page-heading">Testimonials</h1>
+                    <p class="heading-info">Kevin pastrami tri-tip prosciutto ham hock pork belly bacon pork loin salami pork chop shank.</p>
+
+                    <!-- Owl Testimonial Starts -->
+                	<div class="owl-carousel owl-theme" id="owl-testimonial">
+                    	
+                        <!-- Item 1 -->
+                        <div class="item">
+                    		
+                            <!-- Testimonial Block -->
+                            <div class="testi-block">
+                            	
+                            	<div class="testi-name text-center">
+                                    <h3>Dolph Zigler</h3>
+                                </div>
+
+                                <div class="testi-text">
+                            		<p>Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto ham.</p>
+                                </div>
+                                
+                            </div>
+                            <!-- Testimonial Block -->
+                            
+                    	</div>
+                        <!-- Item 1 -->
+                        
+                        
+                        <!-- Item 2 -->
+                        <div class="item">
+                    		
+                            <!-- Testimonial Block -->
+                            <div class="testi-block">
+                            	
+                            	<div class="testi-name text-center">
+                                    <h3>Brendon Taylor</h3>
+                                </div>
+
+                                <div class="testi-text">
+                            		<p>Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto ham.</p>
+                                </div>
+                                
+                            </div>
+                            <!-- Testimonial Block -->
+                            
+                    	</div>
+                        <!-- Item 2 -->
+                        
+                        
+                        <!-- Item 3 -->
+                        <div class="item">
+                    		
+                            <!-- Testimonial Block -->
+                            <div class="testi-block">
+                            	
+                            	<div class="testi-name text-center">
+                                    <h3>Martin Joseph</h3>
+                                </div>
+
+                                <div class="testi-text">
+                            		<p>Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto ham.</p>
+                                </div>
+                                
+                            </div>
+                            <!-- Testimonial Block -->
+                            
+                    	</div>
+                        <!-- Item 3 -->
+                        
+                        
+                        <!-- Item 4 -->
+                        <div class="item">
+                    		
+                            <!-- Testimonial Block -->
+                            <div class="testi-block">
+                            	
+                            	<div class="testi-name text-center">                                	
+                                    <h3>James Wick</h3>
+                                </div>
+
+                                <div class="testi-text">
+                            		<p>Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail pancetta ball tip doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto ham.</p>
+                                </div>
+                                
+                            </div>
+                            <!-- Testimonial Block -->
+                            
+                    	</div>
+                        <!-- Item 4 -->
+                           
+                    </div>
+                	<!-- Owl Testimonial Ends -->
+                    
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section Ends -->
+    
+    
+    <!-- Contact Section Starts -->
+    <section id="contact" class="section-padding">
+        <div class="container text-center">
+            <div class="row">
+            
+                <div class="col-sm-12">
+                
+                    <h1 class="page-heading">Get In Touch</h1>
+                    <p class="heading-info">Kevin pastrami tri-tip prosciutto ham hock pork belly bacon pork loin salami pork chop shank.</p>
+                                                                 
+                    <div class="row address">
+                    
+                        <!--Address Starts-->
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="address-text-icon slide-top-vis">
+                                <span><i class="fa fa-map-marker"></i></span>
+                                <h3>Our Location</h3>
+                                <p>Street 92 H-G, Main Road</p>
+                                <p>Block C, California.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="address-text-icon slide-top-vis">
+                                <span><i class="fa fa-phone"></i></span>
+                                <h3>Call Us</h3>
+                                <p>+1 1234 12345</p>
+                                <p>+1 1234 12346</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="address-text-icon slide-top-vis">
+                                <span><i class="fa fa-envelope-o"></i></span>
+                                <h3>Email Us</h3>
+                                <p>email@info.net.ca</p>
+                                <p>email@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="address-text-icon slide-top-vis">
+                                <span><i class="fa fa-clock-o"></i></span>
+                                <h3>Opening Hours</h3>
+                                <p>Mon - Thu 9:00 am - 5pm </p>
+                                <p>Sat - Sun 8:00 am - 2pm </p>
+                            </div>
+                        </div>
+                        <!--Address Ends-->
+                        
+                    </div>
+                    
+                    
+                    <div class="row">
+                    	
+                        <!-- Map Section Starts -->
+                        <section class="col-sm-6" id="map">
+                    
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509729.487836256!2d-123.77686152799836!3d37.1864783963941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia!5e0!3m2!1sen!2s!4v1490695907554" allowfullscreen></iframe>
+                            </div>
+                    
+                        </section>
+                        <!-- Map Section Starts -->
+                        
+                        
+                        <!--Contact Form Starts-->
+                        <div class="col-sm-6" id="c-form">
+                        
+                            <form>
+                                <div class="form-group slide-bot-vis">
+                                    <input type="text" class="form-control" placeholder="Your Name"  required/>
+                                </div>
+                            
+                                <div class="form-group slide-bot-vis">										
+                                    <input type="email" class="form-control" placeholder="Your Email"  required/>
+                                </div>
+                                
+                                <div class="form-group slide-bot-vis">										
+                                    <input type="text" class="form-control" placeholder="Phone"  required/>
+                                </div>
+                                
+                                <div class="form-group slide-bot-vis">
+                                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                                </div>
+            
+                                <div class="button slide-bot-vis">
+                                    <button class="btn btn-default mybtn"><span class="glyphicon glyphicon-share-alt"></span> SEND</button>
+                                </div> 
+                            </form>
+    
+                        </div>
+                        <!--Contact Form Ends-->
+
+                    </div>
+                    
+				</div>
+			</div>
+		</div>
+    </section>
+    <!-- Contact Section Ends -->
+    
+    
+    <!--Footer Section Starts-->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+            	
+                <div class="col-sm-4">
+                	
+                    <!-- Social Links -->
+                    <ul class="list-unstyled list-inline social-links">
+                        <li><a href="#"><span><i class="fa fa-2x fa-facebook"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-2x fa-twitter"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-2x fa-google"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-2x fa-instagram"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-2x fa-pinterest"></i></span></a></li>
+               		</ul>
+                    <!-- Social Links -->
+                </div>
+                
+                <div class="col-sm-8">   
+                    
+                    <!-- Copyright -->
+                    <div class="copyright">
+                        <p>Copyright © 2017 - <span id="link"><a href="http://bootstraplayouts.com/">Bootstrap Layouts</a></span>. All rights reserved.</p>
+                    </div>
+                	<!-- Copyright -->
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--Footer Section Ends-->
+    
